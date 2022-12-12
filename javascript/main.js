@@ -5,11 +5,21 @@ let pregunta3;
 let respuesta1=1977;
 let respuesta2=15;
 let respuesta3="Inglaterra";
+function bienvenidx (name){
+    alert("bienvenidx" + " " + name);
+}
+
+let ingresoNombre = prompt("Ingrese su nombre");
+while (ingresoNombre == "") {
+    ingresoNombre=prompt("Debe ingresar su nombre para continuar");
+    
+}
+bienvenidx(ingresoNombre);
 
 pregunta1=prompt("¿En que año debuto el Diego en la seleccion Argentina?¿1977 o 1980?");
 
 if(pregunta1==1977){
-   alert ("Tu respuesta es correcta.Sigue participando.");
+   alert ("Tu respuesta es correcta");
 }else{
     alert("Tu respuesta es incorrecta")
 }
@@ -17,7 +27,7 @@ if(pregunta1==1977){
 pregunta2=prompt("¿Cuántos años tenía Diego cuando debutó en Primera?¿17 o 15?")
 
 if(pregunta2==15){
-    alert("Tu respuesta es correcta.Sigue participando.");
+    alert("Tu respuesta es correcta");
 }else{
     alert("Tu respuesta es incorrecta")
 }
@@ -25,7 +35,7 @@ if(pregunta2==15){
 pregunta3=prompt("¿Contra que selección fue la mano de Dios?¿Inglaterra o francia?");
 
 if(pregunta3 == "Inglaterra"){
-    alert("Tu respuesta es correcta.Sigue participando.");
+    alert("Tu respuesta es correcta");
 }else{
     alert("Tu respuesta es incorrecta")
 }
